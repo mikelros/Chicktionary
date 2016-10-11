@@ -43,10 +43,6 @@ public class CustomizedListAdapter extends BaseAdapter {
 
     public View getView(int position, View convertView, ViewGroup parent) {
         View view = convertView;
-        int icons[] = { android.R.drawable.ic_dialog_info,
-                android.R.drawable.ic_dialog_info,
-                android.R.drawable.ic_dialog_alert,
-                android.R.drawable.ic_dialog_email};
 
         if (convertView == null) {
             LayoutInflater inflater = (LayoutInflater) activity.getSystemService(Context.LAYOUT_INFLATER_SERVICE);

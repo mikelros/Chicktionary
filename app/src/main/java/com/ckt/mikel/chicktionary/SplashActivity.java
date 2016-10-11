@@ -10,6 +10,7 @@ import android.widget.LinearLayout;
 
 public class SplashActivity extends AppCompatActivity {
     private LinearLayout splash;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -27,5 +28,6 @@ public class SplashActivity extends AppCompatActivity {
         super.onUserInteraction();
         Intent intent = new Intent(SplashActivity.this, MainActivity.class);
         startActivity(intent);
+        finish();
     }
 }

@@ -10,8 +10,8 @@
     tools:context="com.ckt.mikel.chicktionary.MainActivity">
 
     <ListView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
         android:id="@+id/listViewChicks"
         android:layout_gravity="center" />
 </FrameLayout>

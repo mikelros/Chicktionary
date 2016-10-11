@@ -1,9 +1,11 @@
 package com.ckt.mikel.chicktionary;
 
+import java.io.Serializable;
+
 /**
  * Created by Mikel on 06/10/2016.
  */
-public class Person {
+public class Person implements Serializable {
     private String name;
     private String email;
     private Integer phone;
