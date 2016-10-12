@@ -10,9 +10,9 @@ public class Person implements Serializable {
     private String email;
     private Integer phone;
     private Float rating;
-    private String picture;
+    private Integer picture;
 
-    public Person(String name, String email, Integer phone, String picture, Float rating) {
+    public Person(String name, String email, Integer phone, Integer picture, Float rating) {
         this.name = name;
         this.email = email;
         this.phone = phone;
@@ -52,11 +52,11 @@ public class Person implements Serializable {
         this.rating = rating;
     }
 
-    public String getPicture() {
+    public Integer getPicture() {
         return picture;
     }
 
-    public void setPicture(String picture) {
+    public void setPicture(Integer picture) {
         this.picture = picture;
     }
 

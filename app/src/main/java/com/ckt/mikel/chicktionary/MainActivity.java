@@ -29,12 +29,12 @@ public class MainActivity extends AppCompatActivity {
      */
     private void setupData () {
         people = new ArrayList<Person>();
-        people.add(new Person("Ana", "ana@email.com", 600111222, "testing", 9.5f));
-        people.add(new Person("Julia", "julia@email.com", 611222777, "testing 2", 6.5f));
-        people.add(new Person("Ramón", "ramon@email.com", 699333222, "testing truck driver", 1.5f));
-        people.add(new Person("Elvira", "elvira@email.com", 948579800, "testing elvira", 2f));
-        people.add(new Person("Ted Cruz", "ted@email.com", 785999333, "testing ted", 10f));
-        people.add(new Person("Sean Murray", "nomanslie@email.com", 741852963, "testing a lie", 0f));
+        people.add(new Person("Ana", "ana@email.com", 600111222, R.drawable.uno,  9.5f));
+        people.add(new Person("Julia", "julia@email.com", 611222777,R.drawable.dos, 6.5f));
+        people.add(new Person("Ramón", "ramon@email.com", 699333222,R.drawable.tres, 1.5f));
+        people.add(new Person("Elvira", "elvira@email.com", 948579800, R.drawable.cuatro, 2f));
+        people.add(new Person("Ted Cruz", "ted@email.com", 785999333,R.drawable.cinco, 10f));
+        people.add(new Person("Sean Murray", "nomanslie@email.com", 741852963, R.drawable.seis, 0f));
     }
 
     /**

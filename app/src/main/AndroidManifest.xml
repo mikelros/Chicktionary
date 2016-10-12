@@ -16,7 +16,12 @@
             </intent-filter>
         </activity>
         <activity android:name=".MainActivity" />
-        <activity android:name=".DetailActivity"></activity>
+        <activity android:name=".DetailActivity"
+            android:parentActivityName="com.ckt.mikel.chicktionary.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ckt.mikel.chicktionary.MainActivity" />
+        </activity>
     </application>
 
 </manifest>
